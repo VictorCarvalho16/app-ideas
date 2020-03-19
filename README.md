@@ -4,8 +4,10 @@
   
   
 ## Feitos 
-  - Bin2Dec
-    conversor simples de números binarios para decimais
-  - Border Radius Previewer
+  - #### Bin2Dec 
+    Conversor simples de números binarios para decimais
+    
+  - #### Border Radius Previewer 
     Um visualizador de bordas em tempo real que permite copiar o código do border-radius do CSS
   
+ 
