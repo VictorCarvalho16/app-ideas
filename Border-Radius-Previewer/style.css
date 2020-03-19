@@ -1,0 +1,42 @@
+body {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main {
+    width: 721px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+}
+
+#border-left-top {
+    display: block;
+    position: absolute;
+}
+
+#border-left-bottom {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+}
+
+#border-right-top {
+    display: block;
+    position: absolute;
+    right: 0px;
+}
+
+#border-right-bottom {
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.example {
+    background: #aaca5e;
+    width: 400px;
+    height: 200px;
+    margin: 25px auto;
+}
