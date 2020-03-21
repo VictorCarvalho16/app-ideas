@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    width: 721px;
+    width: 80%;
     border: 1px solid black;
     margin: auto;
     position: relative;
@@ -36,7 +36,8 @@ main {
 
 .example {
     background: #aaca5e;
-    width: 400px;
+    max-width: 400px;
+    width: 90%;
     height: 200px;
     margin: 25px auto;
 }
