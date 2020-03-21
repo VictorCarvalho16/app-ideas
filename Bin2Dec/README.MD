@@ -5,9 +5,8 @@ Binário é o sistema numérico em que todos os computadores digitais se baseiam
 Portanto, é importante que os desenvolvedores entendam binário ou base 2,
 matemática. O objetivo do Bin2Dec é fornecer prática e
 compreensão de como cálculos binários.
-Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
-and 1's, in any sequence and then displays its decimal equivalent.
-
+O Bin2Dec permite que o usuário insira strings de até 8 dígitos binários, zeros
+e 1, em qualquer sequência e, em seguida, exibe seu equivalente decimal.
 Esse desafio exige que o desenvolvedor que o implementa siga estas
 restrições:
 
