@@ -2,28 +2,26 @@ const exampleDiv = document.querySelector('.example')
 const borderLeftTopInput = document.querySelector('#border-left-top')
 const borderLeftBottomInput = document.querySelector('#border-left-bottom')
 const borderRightTopInput = document.querySelector('#border-right-top')
-const borderRoghtBottomInput = document.querySelector('#border-right-bottom')
+const borderRightBottomInput = document.querySelector('#border-right-bottom')
 const resultButton = document.querySelector('#css-results')
 const resultDiv = document.querySelector('#result')
+const typeBorderRadiusSelect = document.querySelector('#typeBorderRadius')
 
-borderLeftTopInput.addEventListener('change', () => {
-    let value = borderLeftTopInput.value
-    exampleDiv.style.borderTopLeftRadius = `${value}px`
-})
+borderLeftTopInput.addEventListener('change', () => {changeBorderRadius('leftTop')})
+borderLeftBottomInput.addEventListener('change', () => {changeBorderRadius('leftBottom')})
+borderRightTopInput.addEventListener('change', () => {changeBorderRadius('rightTop')})
+borderRightBottomInput.addEventListener('change', () => {changeBorderRadius('rightBottom')})
 
-borderLeftBottomInput.addEventListener('change', () => {
-    let value = borderLeftBottomInput.value
-    exampleDiv.style.borderBottomLeftRadius = `${value}px`
-})
-
-borderRightTopInput.addEventListener('change', () => {
-    let value = borderRightTopInput.value
-    exampleDiv.style.borderTopRightRadius = `${value}px`
-})
-
-borderRoghtBottomInput.addEventListener('change', () => {
-    let value = borderRoghtBottomInput.value
-    exampleDiv.style.borderBottomRightRadius = `${value}px`
+typeBorderRadiusSelect.addEventListener('change', () => {
+    let type = typeBorderRadiusSelect.value
+    resultDiv.innerHTML = ''
+    if (type === "%") {
+        exampleDiv.style.borderRadius = exampleDiv.style.borderRadius.replace(/px/g, "%")
+    } else if (type === "px") {
+        exampleDiv.style.borderRadius = exampleDiv.style.borderRadius.replace(/%/g, "px")
+    } else {
+        console.log('Algo está errado')
+    }
 })
 
 resultButton.addEventListener('click', () => {
@@ -35,6 +33,27 @@ resultButton.addEventListener('click', () => {
 exampleDiv.addEventListener('click', () => {
     exampleDiv.style.backgroundColor  = getRandomColor()
 })
+
+
+function changeBorderRadius(element) {
+    resultDiv.innerHTML = ''
+    let type = typeBorderRadiusSelect.value
+    switch (element) {
+        case 'leftTop':
+            exampleDiv.style.borderTopLeftRadius = `${borderLeftTopInput.value}${type}`
+            break;
+        case 'leftBottom':
+            exampleDiv.style.borderBottomLeftRadius = `${borderLeftBottomInput.value}${type}`
+            break;
+        case 'rightTop':
+            exampleDiv.style.borderTopRightRadius = `${borderRightTopInput.value}${type}`
+            break;
+        case 'rightBottom':
+            exampleDiv.style.borderBottomRightRadius = `${borderRightBottomInput.value}${type}`
+            break;
+    }
+}
+
 
 function copyTextToClipboard() {
 
