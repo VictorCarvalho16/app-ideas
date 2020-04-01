@@ -1,37 +1,26 @@
-body {
+main {
     margin-top: 100px;
     text-align: center;
-}
-
-main {
     width: 80%;
-    border: 1px solid black;
     margin: auto;
     position: relative;
 }
 
-#border-left-top {
-    display: block;
-    position: absolute;
+.content {
+    border: 1px solid black;
+    display: flow-root;
 }
 
-#border-left-bottom {
-    display: block;
-    position: absolute;
-    bottom: 0px;
+.output {
+    margin-top: 20px;
 }
 
-#border-right-top {
-    display: block;
-    position: absolute;
-    right: 0px;
+#border-left-top, #border-left-bottom {
+    float: left;
 }
 
-#border-right-bottom {
-    display: block;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+#border-right-top, #border-right-bottom {
+    float: right;
 }
 
 .example {
@@ -42,11 +31,11 @@ main {
     margin: 25px auto;
 }
 
-button {
-    border-radius: 5%;
-    background: #a7a2a21c;
-    border-style: outset;
-    border: 1px solid #000;
-    padding: 10px;
-    margin-top: 15px;
+select {
+    display: block;
+    margin: 0 auto;
+}
+
+select, button {
+    margin-bottom: 5px;
 }

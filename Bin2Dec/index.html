@@ -5,22 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binary To Decimal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../global.css">
 </head>
 <body>
-    <h1>Binary To Decimal</h1>
-    <div class="input">
-        <span>Binary: </span>
-        <input type="text" name="binary-input" id="binary-input" maxlength="8"><br>
-        <span>Digits: </span>
-        <select name="binary-digits" id="binary-digits">
-            <option value="8">8</option>
-            <option value="16">16</option>
-            <option value="32">32</option>
-            <option value="64">64</option>
-        </select>
-    </div>  
-    <button id="convert">Convert To Decimal</button>
-    <div id="result"></div>
+    <header>
+        <div class="container">
+            <h1>APP IDEAS</h1>
+            <a href="../">Go Back</a>
+        </div>
+    </header>
+
+    <main>
+        <h2>Binary To Decimal</h2>
+        <div class="input">
+            <span>Binary: </span>
+            <input type="text" name="binary-input" id="binary-input" maxlength="8"><br>
+            <span>Digits: </span>
+            <select name="binary-digits" id="binary-digits">
+                <option value="8">8</option>
+                <option value="16">16</option>
+                <option value="32">32</option>
+                <option value="64">64</option>
+            </select>
+        </div>  
+        <button id="convert">Convert To Decimal</button>
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        <p><a class="alert-link" href="https://github.com/VictorCarvalho16">Victor Carvalho</a> &copy;2020</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

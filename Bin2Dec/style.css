@@ -1,4 +1,4 @@
-body {
+main {
     text-align: center;
     margin-top: 100px;
 }
@@ -9,19 +9,4 @@ div.input {
 
 div.input input {
     margin-bottom: 10px;
-}
-
-button {
-    border-radius: 5%;
-    background: #a7a2a21c;
-    border-style: outset;
-    border: 1px solid #000;
-    padding: 10px;
-}
-
-button:hover {
-    cursor: pointer;
-    background-color: #6d299b;
-    color: #FFF;
-    border-color: #FFF;
 }
