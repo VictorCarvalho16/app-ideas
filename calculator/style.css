@@ -1,0 +1,40 @@
+.calculator {
+    margin-top: 20px;
+}
+
+.calculator input {
+    height: 40px;
+    width: 200px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.keyboard  {
+    display: grid;
+    margin: 20px auto;
+    font-weight: 900;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.keyboard ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black ;
+    margin: 1px;
+    border-collapse: separate;
+    transition: 0.4s;
+}
+
+.keyboard ul li:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+    border: 2px solid black;
+    margin: 0;
+}
