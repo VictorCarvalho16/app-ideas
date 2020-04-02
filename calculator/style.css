@@ -29,7 +29,7 @@ ul{
     border: 1px solid black ;
     margin: 1px;
     border-collapse: separate;
-    transition: 0.4s;
+    transition: background-color 0.4s;
 }
 
 .keyboard ul li:hover {
