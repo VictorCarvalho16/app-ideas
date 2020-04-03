@@ -34,7 +34,7 @@ Operação. Se a última entrada do usuário foi uma operação, o display será
 atualizado para o valor que o precedeu.
 - [x] O usuário pode clicar no botão 'AC' para limpar todas as áreas de trabalho internas e
 para definir o display para 0.
-- [] O usuário pode ver 'ERR' exibido se alguma operação exceder a
+- [x] O usuário pode ver 'ERR' exibido se alguma operação exceder a
 Máximo de 8 dígitos.
 
 ## Recursos bônus

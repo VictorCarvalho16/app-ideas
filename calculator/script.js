@@ -36,11 +36,17 @@ calcInput.addEventListener('keydown', (event) => {
                 event.preventDefault()
                 handleCalculation('equal')
                 break
+
+            case ',':
+                event.preventDefault()
+                calcInput.value += '.' 
+                break
         }
     }
 
     if (calcInput.value.length === 8) {
-        alert('Max 8 numbers')
+        calcInput.value = ''
+        calcInput.placeholder = 'ERR'
     }
 })
 
@@ -64,6 +70,7 @@ document.querySelector("#equal-button").addEventListener('click', () => { handle
 
 document.querySelector("#ac-button").addEventListener('click', (e) => {
     calcInput.value = ''
+    calcInput.placeholder = '0'
     calculate = false
     pastValue = 0
     currentValue = 0
@@ -137,6 +144,8 @@ function handleCalculation(operation) {
             calculationOperation = '+'
             break
     }
+
+    calcInput.placeholder = pastValue
 }
 
 function cleanInput() {

@@ -6,9 +6,15 @@ main {
     position: relative;
 }
 
+input {
+    width: 50px;
+}
+
 .content {
     border: 1px solid black;
     display: flow-root;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .output {
