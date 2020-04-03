@@ -12,7 +12,7 @@ exibido durante as férias de Natal.
 
 ## Histórias de usuários
 
-- [] O usuário pode pressionar um botão para iniciar e parar a exibição.
+- [x] O usuário pode pressionar um botão para iniciar e parar a exibição.
 - [] O usuário pode alterar o intervalo de tempo controlando a alteração na intensidade
 
 ## Recursos bônus
