@@ -13,11 +13,11 @@ exibido durante as férias de Natal.
 ## Histórias de usuários
 
 - [x] O usuário pode pressionar um botão para iniciar e parar a exibição.
-- [] O usuário pode alterar o intervalo de tempo controlando a alteração na intensidade
+- [x] O usuário pode alterar o intervalo de tempo controlando a alteração na intensidade
 
 ## Recursos bônus
 
-- [] O usuário pode selecionar a cor usada para preencher cada círculo
+- [x] O usuário pode selecionar a cor usada para preencher cada círculo
 - [] O usuário pode especificar o valor da intensidade
 - [] O usuário pode alterar o tamanho de qualquer círculo na linha
 - [] O usuário pode especificar o número de linhas a serem incluídas na exibição. A partir de uma a sete linhas podem ser escolhidas

@@ -10,4 +10,9 @@
   - #### Border Radius Previewer 
     Um visualizador de bordas em tempo real que permite copiar o código do border-radius do CSS
   
+  - #### Calculadora
+    Uma Calculadora feita em JS, HTML e CSS com entrado pelos botoes da tela ou pelo teclado
+
+  - #### Luzes de Natal
+    uma exibição de luz hipnotizante.
  
