@@ -3,6 +3,13 @@ const ledItemsAll = document.querySelectorAll('ul li')
 const buttonStartStop = document.querySelector('button')
 const timeIntervalInput = document.querySelector('#time-interval')
 const colorChangeInput = document.querySelector('#color-change')
+const intensityInput = document.querySelector('#intensity-value')
+
+const cssDeclaration = document.styleSheets[0].cssRules[0].style;
+
+intensityInput.addEventListener('change', () => {
+    cssDeclaration.setProperty('--opacity', intensityInput.value)
+})
 
 function LedsToggle() {
     ledItemsAll.forEach((ledItem) => {

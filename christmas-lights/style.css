@@ -1,3 +1,7 @@
+body {
+  --opacity: 0.3;
+}
+
 .content {
     width: 90%;
     margin: 0 auto;
@@ -46,7 +50,7 @@ ul li{
 }
 
 .opacity {
-    opacity: 0.3;
+    opacity: var(--opacity);
 }
 
 main button {
