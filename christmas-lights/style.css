@@ -1,5 +1,5 @@
 body {
-  --opacity: 0.3;
+  --opacity: 1;
 }
 
 .content {
@@ -19,6 +19,7 @@ ul li{
     width: 30px;
     height: 30px;
     transition: opacity 1s;
+    opacity: 0.2;
 }
 
 .red {

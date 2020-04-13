@@ -18,6 +18,6 @@ exibido durante as férias de Natal.
 ## Recursos bônus
 
 - [x] O usuário pode selecionar a cor usada para preencher cada círculo
-- [] O usuário pode especificar o valor da intensidade
-- [] O usuário pode alterar o tamanho de qualquer círculo na linha
-- [] O usuário pode especificar o número de linhas a serem incluídas na exibição. A partir de uma a sete linhas podem ser escolhidas
+- [x] O usuário pode especificar o valor da intensidade
+- [ ] O usuário pode alterar o tamanho de qualquer círculo na linha
+- [x] O usuário pode especificar o número de linhas a serem incluídas na exibição. A partir de uma a sete linhas podem ser escolhidas
